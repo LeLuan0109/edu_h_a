@@ -1,0 +1,82 @@
+.container-footer {
+  height: fit-content;
+  padding: 16px;
+  background-color: #7bb151;
+  color: white;
+  margin-top: 30px;
+}
+
+.content {
+  display: flex;
+  width: 100%;
+  color: white;
+}
+
+.footer-label {
+  margin-left: 20px;
+  width: 55%;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.footer-label-title {
+  font-size: medium;
+}
+.img {
+  width: 100px;
+  height: 40px;
+}
+
+.footer-about, .footer-service {
+  width: fit-content;
+  margin-top: 16px;
+}
+.footer-about-content {
+  color: white;
+  font-size: medium;
+  font-weight: bold;
+  margin-top: 8px;
+}
+.footer-service-content, .footer-info-content {
+  color: white;
+  margin-top: 8px;
+}
+
+.footer-about-element, .footer-service-element {
+  text-decoration: none;
+}
+
+.footer-service-label, .footer-info-label {
+  margin-top: 16px;
+  font-weight: bold;
+}
+
+.address {
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.contact {
+  margin-top: 30px;
+  height: fit-content;
+  width: fit-content;
+  margin-left: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid white;
+  border-radius: 30px;
+}
+
+.contact-content {
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.call-icon {
+  margin-left: 5px;
+  padding: 0;
+  margin-right: 0px;
+}

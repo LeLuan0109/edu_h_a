@@ -1,0 +1,165 @@
+.chart-container {
+  max-width: 700px; /* Adjust this value to your desired width */
+  margin: 0 auto; /* Center the chart horizontally */
+}
+
+.note-container {
+  height: 95%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  width: 100%;
+}
+.note-detail {
+  justify-content: center;
+  align-items: center;
+}
+
+.label-container {
+  display: flex;
+}
+
+.label-element-D, .label-element-I, .label-element-S, .label-element-C{
+  justify-content:center;
+  align-items: center;
+  width: fit-content;
+  margin-right: 5px;
+}
+
+.label-text {
+  font-weight: 500;
+  text-align: center;
+}
+
+.label-icon-D, .label-icon-I, .label-icon-S, .label-icon-C {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  color: white;
+  width: 40px;
+}
+
+.label-icon-D {
+  background-color: #254336;
+}
+.label-icon-I {
+  background-color: #254336;
+}
+.label-icon-S {
+  background-color: #254336;
+}
+.label-icon-C {
+  background-color: #254336;
+}
+
+.difference-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px; /* khoảng cách giữa các ô */
+  margin-top: 16px;
+  width: 100%;
+}
+
+.D-difference, .I-difference, .S-difference, .C-difference {
+  border-radius: 12px;
+  margin-top: 8px;
+  max-width: 200px;
+  display: flex;
+}
+
+.D-difference {
+  background-color: #C40C0C;
+  border: 1px solid #C40C0C;
+}
+.I-difference {
+  background-color: #FFC100;
+  border: 1px solid #FFC100;
+}
+.S-difference {
+  background-color: #06D001;
+  border: 1px solid #06D001;
+}
+.C-difference {
+  background-color: #060047;
+  border: 1px solid #060047;
+}
+
+.D-difference-score, .I-difference-score, .S-difference-score, .C-difference-score {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  background-color: #ffffff;
+  border-radius: 12px 0 0 12px;
+  font-weight: 500;
+  margin-right: 5px;
+}
+.D-difference-score {
+  color: #C40C0C;
+}
+.I-difference-score {
+  color: #FFC100;
+}
+.S-difference-score {
+  color: #06D001;
+}
+.C-difference-score {
+  color: #060047;
+}
+
+.diffecrence-text {
+  padding: 4px;
+  display: flex;
+  width: 100%;
+  color: white;
+  text-align: center;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.difference-score {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.score-disc-latent, .score-disc-motivate {
+  display: flex;
+  margin-top: 8px;
+  border-radius: 10px;
+  justify-content: space-between;
+  color: white;
+  font-weight: 600;
+  width: fit-content;
+}
+
+.score-disc-latent {
+  background: #E88D67;
+}
+
+.score-disc-motivate {
+  background: #A2CDB0;
+}
+
+
+.score-disc-element {
+  margin-left: 4px;
+  width: 40px;
+  padding: 5px;
+  text-align: center;
+  position: relative;
+}
+.score-disc-label {
+  padding-left: 10px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin-right: 5px;
+}
+.score-disc-element:not(:last-child) {
+  border-right: 2px solid white; /* Đường kẻ dọc trắng */
+}

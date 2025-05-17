@@ -1,0 +1,13 @@
+.question-name {
+  text-align: center;
+}
+
+.answer {
+  text-align: center;
+}
+
+.answer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

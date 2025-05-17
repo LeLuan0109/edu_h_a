@@ -1,0 +1,19 @@
+.title-container {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+.title-test {
+  font-weight: bolder;
+  font-size: xx-large;
+  color: #7bb151;
+  text-align: center;
+}
+
+.subtitle-test {
+  font-weight: bolder;
+  font-size: x-large;
+  color: #E8751A;
+  margin-bottom: 16px;
+}

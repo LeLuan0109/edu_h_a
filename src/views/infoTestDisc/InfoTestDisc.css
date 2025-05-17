@@ -1,0 +1,16 @@
+.about-disc {
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+.btn-start-test {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.image-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

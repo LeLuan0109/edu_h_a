@@ -1,0 +1,15 @@
+.about-content-container {
+  background-color: white;
+  padding: 8px;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.about-title {
+  font-size: 2.5rem;
+  font-weight: 450;
+}
+
+.about-content {
+  margin-top: 15px;
+}

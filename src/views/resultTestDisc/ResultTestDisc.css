@@ -1,0 +1,37 @@
+.analysis-container {
+  margin-top: 20px;
+  padding: 16px;
+  box-shadow: #e8751a;
+  background: #fff;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+}
+.analysis-detail {
+  font-weight: 600;
+  text-align: center;
+  font-size: 1.8rem;
+}
+
+.group-disc {
+  font-weight: 500;
+  font-size: 1.5rem;
+  white-space: pre-wrap;
+}
+
+.strength {
+  font-size: 1.5rem;
+  font-weight: 450;
+}
+
+.contact-container {
+  margin-top: 15px;
+  border-radius: 15px;
+  background-color: bisque;
+  color: #000000;
+  padding: 10px;
+}
+
+.hightlight-text {
+  font-weight: 500;
+  font-size: 1.2rem;
+}

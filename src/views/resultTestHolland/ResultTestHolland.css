@@ -1,0 +1,281 @@
+.result-container {
+  margin-top: 20px;
+  padding: 16px;
+  box-shadow: #e8751a;
+  background: #fff;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+}
+
+.reason-container {
+  border-radius: 30px;
+  background-color: #FFFFEC;
+  padding: 16px;
+}
+
+.reason-title {
+  text-align: center;
+  font-size: 1.4rem;
+  color: #7bb141;
+}
+
+.reason-content {
+  position: relative;
+  padding-top: 40px;
+
+}
+
+.top-right-image {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 8px;
+  /* tuỳ chỉnh khoảng cách */
+}
+
+.booking-container {
+  margin-top: 16px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.describe-container {
+  text-align: center;
+  color: #E8751A;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.core-value {
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+.characteristic-title {
+  margin-top: 16px;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.characteristic-content {
+  margin-top: 12px;
+  white-space: pre-line;
+  margin-bottom: 100px;
+}
+
+.detail-container {
+  margin: -15px;
+}
+
+.favourite-profession-container,
+.considered-occupation-container,
+.subject-container,
+.course-container {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.detail-title {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  background-color: #e8751a;
+  color: white;
+  font-size: 1.7rem;
+  height: 80px;
+}
+
+.favourite-profession-text,
+.considered-occupation-text,
+.subject-text,
+.course-text {
+  width: 100%;
+}
+
+.favourite-profession-text {
+  background-color: #F1E4C3;
+  color: #E8751A;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.favourite-profession-title {
+  font-size: 1.5rem;
+  margin-right: 24px;
+  font-weight: 500;
+}
+
+.favourite-profession-content {
+  margin-right: 24px;
+  align-self: flex-end;
+  /* Đảm bảo các phần tử con căn lề phải */
+  text-align: right;
+  /* Căn văn bản bên trong các phần tử về phía bên phải */
+}
+
+.considered-occupation-text {
+  background-color: #E8751A;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.considered-occupation-content {
+  margin-left: 24px;
+  align-self: flex-start;
+  /* Đảm bảo các phần tử con căn lề phải */
+  text-align: left;
+  /* Căn văn bản bên trong các phần tử về phía bên phải */
+}
+
+.considered-occupation-title {
+  font-size: 1.5rem;
+  margin-left: 24px;
+  font-weight: 500;
+}
+
+.subject-text {
+  background-color: #7bb141;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.subject-title {
+  font-size: 1.5rem;
+  margin-right: 24px;
+  font-weight: 500;
+}
+
+.subject-content {
+  margin-right: 24px;
+  align-self: flex-end;
+  /* Đảm bảo các phần tử con căn lề phải */
+  text-align: right;
+  /* Căn văn bản bên trong các phần tử về phía bên phải */
+}
+
+.course-text {
+  background-color: #F1E4C3;
+  color: #e8751a;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.course-content {
+  margin-left: 24px;
+  align-self: flex-start;
+  /* Đảm bảo các phần tử con căn lề phải */
+  text-align: left;
+  /* Căn văn bản bên trong các phần tử về phía bên phải */
+}
+
+.course-title {
+  font-size: 1.5rem;
+  margin-left: 24px;
+  font-weight: 500;
+}
+
+
+.favourite-profession-number,
+.considered-occupation-number,
+.subject-number,
+.course-number {
+  width: 25%;
+  font-size: 5rem;
+  font-weight: 800;
+  text-align: center;
+}
+
+.favourite-profession-number {
+  background: #7bb141;
+  color: white
+}
+
+.considered-occupation-number {
+  background: white;
+  color: #7bb141;
+}
+
+.subject-number {
+  background: white;
+  color: #e8751a;
+}
+
+.course-number {
+  background: #e8751a;
+  color: white;
+}
+
+.instruct-container {
+  margin-top: 100px;
+}
+
+.instruct-title {
+  font-size: 1.5rem;
+  color: #7bb141;
+}
+
+.reference-title {
+  margin-top: 70px;
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+
+.suitable-occupation-container,
+.suitable-major-container {
+  padding: 24px;
+  background: #FFFFEC;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  margin-top: 50px;
+  border-radius: 15px;
+}
+
+.suitable-occupation-title,
+.suitable-major-title {
+  font-size: 1.4rem;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.jobs-container,
+.major-container {
+  display: grid;
+}
+
+/* Mặc định hiển thị 1 cột */
+@media (max-width: 600px) {
+
+  .jobs-container,
+  .major-container {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Hiển thị 3 cột khi màn hình to */
+@media (min-width: 600px) {
+
+  .jobs-container,
+  .major-container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.job-item,
+.major-item {
+  border-radius: 4px;
+}

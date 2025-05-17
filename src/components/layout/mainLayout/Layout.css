@@ -1,0 +1,26 @@
+/* style.css */
+
+body {
+  margin: 0;
+  /* background-color: #e9efe5; */
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header, footer {
+  width: 100%;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.outlet-container {
+  max-width: 1200px;
+  width: 100%;
+  height: 100%;
+  padding: 0px;
+  box-sizing: border-box;
+  /* background-color: #e9efe5; */
+  margin: 0 auto;
+  flex: 1 0 auto;
+}

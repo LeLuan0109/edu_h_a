@@ -1,0 +1,12 @@
+.box-center {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  margin-top: 16px;
+}
+
+.title {
+  font-weight: bolder;
+  font-size: x-large;
+  color: #E8751A
+}

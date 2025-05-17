@@ -1,0 +1,134 @@
+.intro-image {
+  max-width: 100%;
+  height: auto;
+}
+
+.home-container {
+  padding: 40px;
+}
+
+.home-slogan {
+  margin-top: 40px;
+  font-size: xx-large;
+}
+
+.home-intro {
+  margin-top: 40px;
+  font-size: xx-large;
+  font-weight: 400;
+}
+
+.product-container {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  color: white;
+}
+
+.product {
+  background-color: #7bb151;
+  padding: 5px 8px 5px 8px;
+  width: fit-content;
+  display: flex;
+  border: 1px solid gray;
+  border-radius: 30px;
+}
+
+.product-rank {
+  font-weight: 500;
+  padding: 3px 8px 3px 8px;
+  border: 1px solid gray;
+  border-radius: 30px;
+  background-color: white;
+  color: #FF7F3E;
+}
+
+.product-content {
+  font-weight: 600;
+  padding: 3px 8px 3px 8px;
+}
+
+.service-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  font-weight: 600;
+  font-size: xx-large;
+}
+
+.service-content {
+  margin-bottom: 50px;
+}
+
+.test-service {
+  margin-top: 50px;
+  height: 100%;
+}
+
+.test-service-content-container {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.test-service-content {
+  /* height: 100%; */
+  justify-content: center;
+  align-items: center;
+}
+
+.test-service-label {
+  margin-bottom: 30px;
+  font-size: x-large;
+  font-weight: 500;
+  color: #7bb151;
+}
+
+.btn-test {
+  margin-top: 30px;
+  border: 1px solid #7bb151;
+  border-radius: 30px;
+  color: white;
+  cursor: pointer;
+  background-color: #7bb151;
+  width: fit-content;
+  text-decoration: none;
+  padding: 10px;
+  transition: 0.3s ease;
+}
+
+.btn-test:hover {
+  background-color: white;
+  color: #7bb151;
+  font-weight: bold;
+}
+
+.partner-label-container, .partner-content-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.partner-label-container{
+  margin-top: 50px;
+  
+}
+
+.partner-content {
+  width: 70%;
+  justify-content: center;
+  align-items: center;
+}
+
+.partner-label {
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+  font-size: xx-large;
+  font-weight: 600;
+  
+}
